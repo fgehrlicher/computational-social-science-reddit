@@ -1,0 +1,31 @@
+{
+  "input": "data/RC_2015_03-07.csv",
+  "output": "result.json",
+
+  "filter": {
+    "do_not_consider_author_under_comment_count": 5
+  },
+
+  "sub_groups": {
+    "right": [
+      "Conservative",
+      "Republican",
+      "Republicans",
+      "Conservatives",
+      "Republicanism",
+      "donaldtrump",
+      "The_Donald"
+    ],
+    "left": [
+      "socialism",
+      "progressive",
+      "democrats",
+      "Liberal",
+      "DemocraticSocialism",
+      "SandersForPresident",
+      "JoeBiden",
+      "Kamala",
+      "politics"
+    ]
+  }
+}
